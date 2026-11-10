@@ -4,6 +4,13 @@ import java.awt.event.ActionListener;
 
 public class MyFirstGUI2 extends JFrame implements ActionListener {
 
+    public static void main(String[] args) {
+
+        SwingUtilities.invokeLater(() -> {
+            MyFirstGUI2 gui = new MyFirstGUI2();
+            gui.setVisible(true);
+        });
+    }
     // GUI components
     private JLabel label;
     private JButton button;
