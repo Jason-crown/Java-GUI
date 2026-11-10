@@ -1,7 +1,7 @@
 JC = Javac
 JVM = Java
 JFLAGS = -g
-TARGET = MyFirstGUI
+TARGET = MyFirstGUI2
 
 all: $(TARGET).class
 
