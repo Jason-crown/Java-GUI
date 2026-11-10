@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class MyFirstGUI {
+public class MyFirstGUI1 {
 
     public static void main(String[] args) {
 
