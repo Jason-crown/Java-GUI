@@ -12,4 +12,4 @@ run: $(TARGET).class
 	$(JVM) $(TARGET)
 
 clean:
-	rm -f *.class
+	del /Q *.class
