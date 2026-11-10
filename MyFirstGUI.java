@@ -13,7 +13,7 @@ public class MyFirstGUI {
         // Create components
         JLabel label = new JLabel("Welcome to Java Swing!");
 
-        JButton button = new JButton("Click Me");
+        JButton button = new JButton("PRESS^HERE");
 
         // Add components to the panel
         panel.add(label);
